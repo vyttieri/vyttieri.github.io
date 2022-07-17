@@ -1,6 +1,11 @@
+@font-face {
+  font-family: 'Nunito';
+  src: url(/assets/nunito.ttf) format('truetype');
+}
+
 $backgroundColor: #ffffff;
 $bodyColor: #000000;
-$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+$bodyFont: 'Nunito', sans-serif;
 
 body {
   background: $backgroundColor;
@@ -8,8 +13,14 @@ body {
   font-family: $bodyFont;
 }
 
+a {
+  color: black;
+}
+
+a:hover {
+  color: grey;
+}
+
 header {
-  ol > li {
-    color: black;
-  }
+  border-bottom: 2px solid black;
 }
