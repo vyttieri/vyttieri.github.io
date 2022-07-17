@@ -13,16 +13,14 @@ body {
   font-family: $bodyFont;
 }
 
+a {
+  color: black;
+}
+
+a:hover {
+  color: grey;
+}
+
 header {
-  nav {
-    a {
-      color: black;
-    }
-
-    a:hover {
-      color: grey;
-    }
-  }
-
   border-bottom: 2px solid black;
 }
